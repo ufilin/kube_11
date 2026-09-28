@@ -21,9 +21,9 @@ Recreate действует через пересоздание, что прив
 
 ### Манифесты
   
-**[ns.yaml](https://github.com/ufilin/kube_11/blob/main/task2/deploy.yaml)**  
+**[deploy.yaml](https://github.com/ufilin/kube_11/blob/main/task2/deploy.yaml)**  
   
-**[ns.yaml](https://github.com/ufilin/kube_11/blob/main/task2/service.yaml)**  
+**[service.yaml](https://github.com/ufilin/kube_11/blob/main/task2/service.yaml)**  
   
 
 ### Скриншоты
@@ -51,5 +51,25 @@ Recreate действует через пересоздание, что прив
 > Поведение подов во время обновления до несуществующей версии
 <p align="center">
   <img src="task2/kube_11-2-5.png" width="800">
+</p>
+  
+## Задание 3. Создать Canary deployment*
+
+### Манифесты
+  
+**[deploy-1.yaml](https://github.com/ufilin/kube_11/blob/main/task3/deploy-1.yaml)**  
+  
+**[deploy-2.yaml](https://github.com/ufilin/kube_11/blob/main/task3/deploy-2.yaml)**  
+  
+**[configMap.yaml](https://github.com/ufilin/kube_11/blob/main/task3/configmap.yaml)**  
+  
+**[IngressRoute.yaml](https://github.com/ufilin/kube_11/blob/main/task3/ingressRoute.yaml)**  
+
+**[service.yaml](https://github.com/ufilin/kube_11/blob/main/task3/service.yaml)**  
+  
+### Скриншоты
+  
+<p align="center">
+  <img src="task3/kube_11-3-1.png" width="800">
 </p>
   
