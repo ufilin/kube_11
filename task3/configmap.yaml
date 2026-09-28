@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: old-html
+data:
+  index.html: |
+    <html>
+      <body>
+        <h1>Old Page</h1>
+      </body>
+    </html>
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: new-html
+data:
+  index.html: |
+    <html>
+      <body>
+        <h1>New Page</h1>
+      </body>
+    </html>

@@ -1,0 +1,17 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: canary
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`canary.test`)
+      kind: Rule
+      services:
+        - name: nginx-old
+          port: 80
+          weight: 80
+        - name: nginx-new
+          port: 80
+          weight: 20
