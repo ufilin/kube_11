@@ -73,3 +73,6 @@ Recreate действует через пересоздание, что прив
   <img src="task3/kube_11-3-1.png" width="800">
 </p>
   
+<p align="center">
+  <img src="task3/kube_11-3-2.png" width="800">
+</p>
